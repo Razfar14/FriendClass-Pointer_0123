@@ -9,3 +9,10 @@ class mahasiwa{
         }
 };
 
+int main(){
+    mahasiwa *mhs= new mahasiwa{1};
+    mhs->nim = 2;
+    mhs->showNim();
+    delete mhs;
+    return 0;
+}
